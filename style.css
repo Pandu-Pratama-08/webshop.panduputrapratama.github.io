@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* styling header */
+header {
+    background-color: white;
+    height: 70px;
+    border-radius: 0 0 50px 50px;
+    font-size: 30px;
+}
+
+body {
+    background-color: green;
+}
+
+ 
+/* styling navigation */
+nav {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    position: sticky;
+    width: 100%;
+    
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 20px;
+    color: black;
+}
+
+.article {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.article button {
+    background-color:white;
+    border-radius: 30px;
+    margin-left: 175px;
+    width: 150px;
+}
+
+.article img {
+    display: flex;
+    float: right;
+    margin-right: 20px;
+}
+
+button a {
+    color: black;
+    font-size: 25px;   
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+.article img {
+    border-radius: 0% 30px 0% 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 25rem;
+    width: 20rem;
+}
+
+aside img {
+    margin-left:80px;
+    margin-top: 30px;
+    border-radius: 50% 50% 0 0;
+    height: 16rem;   
+}
+
+aside {
+    padding: 20px;
+}
+
+.main-content {
+    border-bottom: 2px solid black;
+}
+
+
+
+/* Desktop 2 */
+
+
+article h2 {
+    text-align: center;
+}
+
+article h3 {
+    text-align: center;
+}
+
+.service-content {
+    z-index: 5;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    height: 200px;  
+    margin-right: 12px; 
+}
+
+.card-1  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1 img {
+    height: 200px;
+    margin-right: 12px;
+}
+
+.card-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-2 img {
+    height: 200px;
+    width: 120px;
+    margin-right: 12px;
+}
+
+.img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.img p {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+/* Desktop 3 */
+
+.shop-content {
+    z-index: 5;
+    background-color: rgb(215, 154, 154);
+    border: 2px solid black;
+}
+
+.shop-content .clr-text h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.conten {
+    display: flex;
+    justify-content: center;
+}
+
+.card-mrtbk {
+    height: 250px;
+    width: 200px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.card-mrtbk img {
+    border-radius: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.konten {
+    display: flex;
+    justify-content: center;
+}
+.img-mrtbk img {
+    width: 165px;
+}
+
+.card-txt {
+    background-color: rgb(17, 63, 17);
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.card-mrtbk img {
+    padding-bottom: 25px;
+}
+
+/* Dekstop 4 */
+
+.About-Content {
+    z-index: 5;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.about-txt {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.dsktp-4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.txt-mrtbk {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.btn-4 button {
+  background-color: white;
+  border-radius: 50px;
+  margin-left: 550px;  
+  width: 150px;
+  margin-top: 50px;
+}
+
+.btn-4 button:hover {
+    background-color: greenyellow;
+}
+
+/* last-dekstop */
+.footer-content {
+    z-index: 5;
+    background-color: black;
+}
+
+.logo-1 {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer-content .logo-1 h1 {
+    font-size: 30px;
+}
+
+
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 12px;
+    transition: .5s;
+}
+
+.home-sci a:hover {
+    color: #fff;
+    background: #00abf0;
+    border-color: #00abf0;
+    box-shadow: 0 0 10px #00abf0;
+}
+
+footer {
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
